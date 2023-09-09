@@ -1,0 +1,21 @@
+h1{
+    text-align: justify;
+}
+body, html {
+    height: 100%;
+  }
+  
+  body {
+
+    background-image: url("sdfd.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+  }
+
+  #secondcard{
+
+    display: flex;
+    flex-direction: row;
+  }

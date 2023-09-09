@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS</title>
+</head>
+<link rel="stylesheet" href="awsstyle.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="form.html">GUI MENU</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Windows.html">Windows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aws.html">AWS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="python.html">Python</a></li>
+                  <li><a class="dropdown-item" href="linux.html">Linux</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Docker</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <br>  
+      <h1>Welcome to AWS Services</h1>
+      <br>
+      <br>
+
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            
+          <div class="card">
+            <img src="aws1.png" class="card-img-top" alt="Aws Instance">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Launch EC2 Service</h5>
+              <p class="card-text" style="text-align: center;">In this you can launch instanes in Aws</p>
+              <a href="http://13.234.204.113/cgi-bin/ec3.py" class="btn btn-primary" style="align-items:center;">Launch</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+            
+          <div class="card">
+            <img src="AWS2.png" class="card-img-top" alt="Aws Instance">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Launch Lambda Service</h5>
+              <p class="card-text" style="text-align: center;">In this you can directly lambda services in AWS</p>
+              <a href="#" class="btn btn-primary">Launch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <img src="aws3.webp" class="card-img-top" alt="Aws Instance">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Create a Bucket in AWS</h5>
+              <p class="card-text" style="text-align: center;">With the help of this service you can create a bucket in AWS.</p>
+              <a href="http://43.205.233.108/cgi-bin/bucket.py/" class="btn btn-primary">Create Bucket</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="aws4.png" class="card-img-top" alt="Aws Instance">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">SNS Service</h5>
+              <p class="card-text"style="text-align: center;">If any file upload or delete this service will automactically notify.</p>
+              <a href="http://43.205.233.108/cgi-bin/sns2.py/" class="btn btn-primary" style="justify-content: center;">Lauch SNS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+     
+</body>
+</html>
